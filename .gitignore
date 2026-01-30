@@ -1,0 +1,33 @@
+
+```
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+ENV/
+env/
+
+# Environment Variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project Specific
+data/output/*
+!data/output/.gitkeep
+
+# Logs
+*.log
+
+# Temporary files
+temp_image.jpg
